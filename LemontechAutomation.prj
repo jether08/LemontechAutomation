@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>LemontechAutomation</name>
+   <tag></tag>
+   <UUID>5f2900d6-5ecf-4dbd-8a81-32e1c5bb2d68</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
