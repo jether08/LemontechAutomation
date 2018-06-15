@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_jtestpartner1</name>
+   <tag></tag>
+   <elementGuidId>98316d38-532f-495c-bdbb-4b845de9bab8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/ClientSite/SwitchOrganizationView.aspx?AVycgaElXZmEYYNVjIhPPpc1%2bCl6v97NFpLan5w08ynuGLS1BfrCwe1HUFBRBRV9</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-group</name>
+      <type>Main</type>
+      <value>organization</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>6</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>jtestpartner1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sideNav&quot;)/div[@class=&quot;slimScrollDiv&quot;]/div[@class=&quot;slimScroll&quot;]/ul[@class=&quot;sublevel&quot;]/li[@class=&quot;in-search open&quot;]/ul[1]/div[@class=&quot;inline-search&quot;]/div[@class=&quot;typeahead__container cancel result&quot;]/div[@class=&quot;typeahead__result&quot;]/ul[@class=&quot;typeahead__list&quot;]/li[@class=&quot;typeahead__item typeahead__group-organization&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>
