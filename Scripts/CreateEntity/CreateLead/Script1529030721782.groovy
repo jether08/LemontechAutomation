@@ -51,7 +51,7 @@ WebUI.mouseOver(findTestObject('Lead/Page_Home/ul_Welcome'))
 
 WebUI.click(findTestObject('Lead/Page_Home/i_fa fa-bars'))
 
-WebUI.waitForElementPresent(findTestObject('Lead/Page_Home/small'), 3)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(4)
 
