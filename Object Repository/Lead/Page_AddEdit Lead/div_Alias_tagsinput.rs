@@ -3,7 +3,13 @@
    <description></description>
    <name>div_Alias_tagsinput</name>
    <tag></tag>
-   <elementGuidId>92a48a47-25a0-48ae-ab8b-90851fd48c43</elementGuidId>
+   <elementGuidId>ed1d193a-6523-41a6-a503-c158c023729d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>div#Alias_tagsinput</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,17 +27,24 @@
       <value>Alias_tagsinput</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tagsinput form-control</value>
+      <value>tagsinput form-control div-glow</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Alias_tagsinput&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>div#Alias_tagsinput</value>
    </webElementProperties>
 </WebElementEntity>

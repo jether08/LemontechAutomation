@@ -3,7 +3,7 @@
    <description></description>
    <name>a_YES</name>
    <tag></tag>
-   <elementGuidId>cce39d48-264f-4850-bdea-c1eede870d76</elementGuidId>
+   <elementGuidId>8adcbf39-aef2-4a77-ab93-2f8e2b6a100d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

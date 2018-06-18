@@ -77,36 +77,36 @@ WebUI.click(findTestObject('Lead/Page_Home/a_Leads'))
 
 WebUI.click(findTestObject('Lead/Page_Search Lead/input_ctl00MainContentPlaceHol'))
 
-WebUI.setText(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/input_Name'), LeadName)
+WebUI.setText(findTestObject('Lead/Page_AddEdit Lead/input_Name'), LeadName)
 
-LeadName = WebUI.getText(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/input_Name'))
+LeadName = WebUI.getText(findTestObject('Lead/Page_AddEdit Lead/input_Name'))
 
-WebUI.focus(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/div_Alias_tagsinput'))
+WebUI.focus(findTestObject('Lead/Page_AddEdit Lead/div_Alias_tagsinput'))
 
-WebUI.waitForElementClickable(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/div_Alias_tagsinput'), 3)
+WebUI.waitForElementClickable(findTestObject('Lead/Page_AddEdit Lead/div_Alias_tagsinput'), 3)
 
-WebUI.click(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/div_Alias_tagsinput'))
+WebUI.click(findTestObject('Lead/Page_AddEdit Lead/div_Alias_tagsinput'))
 
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Lead/input_Alias_tag'), Alias)
 
-WebUI.sendKeys(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/div_Alias_tagsinput'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Lead/Page_AddEdit Lead/div_Alias_tagsinput'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/a_YES'))
+WebUI.click(findTestObject('Lead/Page_AddEdit Lead/a_YES'))
 
 WebUI.click(findTestObject('Lead/Page_AddEdit Lead/a_YES2'))
 
 WebUI.click(findTestObject('Lead/Page_AddEdit Lead/a_YES3'))
 
-WebUI.click(findTestObject('Lead/Page_AddEdit Lead (1)/Page_AddEdit Lead/button_Save'))
+WebUI.click(findTestObject('Lead/Page_AddEdit Lead/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Lead/Page_AddEdit Lead (1)/div_The record was successfull'), 'The record was successfully saved.')
+WebUI.verifyElementText(findTestObject('Lead/Page_AddEdit Lead/div_The record was successfull'), 'The record was successfully saved.')
 
 'Test Successful. Created New Lead Entity'
-LeadName = WebUI.verifyElementText(findTestObject('NewLead'), LeadName)
+LeadName = WebUI.verifyElementText(findTestObject('Lead/NewLead'), LeadName)
 
 KeywordLogger log = new KeywordLogger()
 
