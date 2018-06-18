@@ -51,7 +51,7 @@ WebUI.mouseOver(findTestObject('Lead/Page_Home/ul_Welcome'))
 
 WebUI.click(findTestObject('Lead/Page_Home/i_fa fa-bars'))
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(4)
 
@@ -98,6 +98,8 @@ WebUI.click(findTestObject('Lead/Page_AddEdit Lead/a_YES'))
 WebUI.click(findTestObject('Lead/Page_AddEdit Lead/a_YES2'))
 
 WebUI.click(findTestObject('Lead/Page_AddEdit Lead/a_YES3'))
+
+WebUI.scrollToElement(findTestObject('Lead/Page_AddEdit Lead/button_Save'), 0)
 
 WebUI.click(findTestObject('Lead/Page_AddEdit Lead/button_Save'))
 
