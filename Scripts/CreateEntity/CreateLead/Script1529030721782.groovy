@@ -51,7 +51,7 @@ WebUI.mouseOver(findTestObject('Lead/Page_Home/ul_Welcome'))
 
 WebUI.click(findTestObject('Lead/Page_Home/i_fa fa-bars'))
 
-WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(4)
 
